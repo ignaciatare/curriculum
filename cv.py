@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_extras.mention import mention
+
 
 st.set_page_config(page_title='Ignacia Taré - CV', 
                 page_icon='👩🏼‍💻', 
@@ -27,21 +27,6 @@ with tabs1:
     with col2:    
         st.write('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur dolor a massa dignissim maximus. Mauris venenatis ante pellentesque massa consectetur, ac ullamcorper erat sodales. Praesent quam lorem, congue a massa vitae, pellentesque finibus mi. Maecenas elementum fringilla eros, ut pretium neque tincidunt ac. Pellentesque porta tincidunt magna, a faucibus libero molestie ac. Fusce ut mattis est, quis blandit orci. Suspendisse potenti.')
 
-        mention(
-        label="GitHub",
-        icon="github",  
-        url="https://github.com/ignaciatare/",
-        )
-        mention(
-        label="Portafólio en Streamlit",
-        icon="streamlit", 
-        url="https://extras.streamlitapp.com",
-        )   
-        mention(
-        label="Twitter",
-        icon="twitter",  
-        url="https://twitter.com/ignaciatare/",
-        )
     st.markdown('---') 
 
 ####################################################################################
