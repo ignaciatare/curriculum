@@ -14,24 +14,70 @@ st.set_page_config(page_title='Ignacia Taré - CV',
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
+####################################################################################
+############################## SIDEBAR #############################################
+####################################################################################
+
+st.sidebar.title('Currículum de auto-atención')
+st.sidebar.write('Puedes elegir los elementos que quieras ver, solo haz click')
+ver = st.sidebar.checkbox('Ver presentación')
+destrezas = st.sidebar.checkbox('Ver Destrezas Técnicas')
+librerias = st.sidebar.checkbox('Ver Librerías de Python')    
+profesional = st.sidebar.checkbox('Ver Experiencia profesional')
+estudios = st.sidebar.checkbox('Ver Estudios')
+extras = st.sidebar.checkbox('Ver Estudios complementarios')
+
+
+####################################################################################
+####################################################################################
+
+
 tabs1, tabs2 = st.tabs(['Español', 'English'])
 
-with tabs1:
-    col01, col02, col03 = st.columns([1,8,1], gap='medium')
-    with col02:
-        st.title('👩🏼‍💻 Ignacia Taré Albornoz')
-        st.subheader('Científica de datos')
-    col1, col2 = st.columns([1,1], gap='small') 
-    with col1:   
-        st.image('profile.png', use_column_width='auto')
-    with col2:    
-        st.write('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur dolor a massa dignissim maximus. Mauris venenatis ante pellentesque massa consectetur, ac ullamcorper erat sodales. Praesent quam lorem, congue a massa vitae, pellentesque finibus mi. Maecenas elementum fringilla eros, ut pretium neque tincidunt ac. Pellentesque porta tincidunt magna, a faucibus libero molestie ac. Fusce ut mattis est, quis blandit orci. Suspendisse potenti.')
+if ver: 
+    with tabs1:
+        col01, col02, col03 = st.columns([1,8,1], gap='medium')
+        with col02:
+            st.title('👩🏼‍💻 Ignacia Taré Albornoz')
+            st.subheader('Presentación')
+        col1, col2 = st.columns([1,1], gap='small') 
+        with col1:   
+            st.image('yo.jpg', use_column_width='auto')
+            st.caption('Uno de mis lugares favoritos para trabajar.\n Foto por Rodrigo Salinas.')
+        with col2:    
+            st.write("""
+                Hola, mi nombre es Ignacia y soy una científica de datos con especial preocupación en las comunicaciones, y un gusto innato por hacer visualizaciones de información.
+                Vivo entre Llay-Llay y Santiago 🇨🇱.\n 
+                Me interesa lo que los datos tienen para comunicar y los entendimientos que podemos sacar de estos.
+                Trabajé trece años en periodismo y hace cinco pasé de escribir noticias a escribir código. Mi principal y favortito lenguaje es **Python**, pero también me manejo muy bien en **HTML + CSS**, en **SQL**, y con **JavaScript**. 
+                En mi corta carrera en programación he enfrentado complicado código escrito por otros; así como también disfruto escribir programas desde cero. 
+            """)
 
-    st.markdown('---') 
+            st.markdown('---') 
+
+
+        # mention(
+        # label="GitHub",
+        # icon="github",  
+        # url="https://github.com/ignaciatare/",
+        # )
+        # mention(
+        # label="Portafólio en Streamlit",
+        # icon="streamlit", 
+        # url="https://extras.streamlitapp.com",
+        # )   
+        # mention(
+        # label="Twitter",
+        # icon="twitter",  
+        # url="https://twitter.com/ignaciatare/",
+        # )
+    
 
 ####################################################################################
 
-    col1, col2, col3, col4 = st.columns([1,4,4,1], gap='medium')
+col1, col2, col3, col4 = st.columns([1,4,4,1], gap='medium')
+
+if destrezas:
     with col2:
         st.markdown("""
         ### Destrezas técnicas
@@ -42,9 +88,11 @@ with tabs1:
         - Git y Github 
         - Office 
         - Edición de audio y video
-        - Inglés avanzado    
+        - Inglés avanzado
+        - Administración Linux
+        - Administración Windows    
         """)
-
+if librerias:
     with col3:
         st.markdown("""
         ### Librerías
@@ -55,14 +103,14 @@ with tabs1:
         - plotly
         - seaborn
         - numpy
+        - geopandas
         """)
-
-####################################################################################
-
     st.markdown('---')
+
+
+if profesional:
     with st.container():
         st.subheader('Experiencia Profesional')
-
         col1, col2 = st.columns([1,2], gap='medium')
         with col1:
             st.markdown("""
@@ -81,29 +129,30 @@ with tabs1:
             """)
 
 
-    with st.container():
-        col1, col2 = st.columns([1,2], gap='medium')
-        with col1:
+        with st.container():
+            col1, col2 = st.columns([1,2], gap='medium')
+            with col1:
+                    st.markdown("""
+                    **Ministerio de Salud**  
+                    Gobierno de Chile 
+                    Programadora, ciencia de datos,  
+                    2021 
+                    (Intervención de tres meses)
+                """)
+
+            with col2:
                 st.markdown("""
-                **Ministerio de Salud**  
-                Gobierno de Chile 
-                Programadora, ciencia de datos,  
-                2021 
-                (Intervención de tres meses)
-            """)
+                    - En conjunto con el Ministerio de la Ciencia, Tecnología, Conocimiento e Innovación.
+                    - A cargo del repositorio Covid-19, publicado a diario en GitHub.
+                    - Creación de programas para automatizaciones en el repositorio.
+                    - Uso de Python para programas, manejo avanzado de GIT y GitHub.
+                """)
 
-        with col2:
-            st.markdown("""
-                - En conjunto con el Ministerio de la Ciencia, Tecnología, Conocimiento e Innovación.
-                - A cargo del repositorio Covid-19, publicado a diario en GitHub
-                - Creación de programas para automatizaciones en el repositorio
-                - Uso de Python para programas, manejo avanzado de GIT y GitHub
-            """)
-
-    st.markdown('---')
+        st.markdown('---')
 
 ####################################################################################
 
+if estudios:
     with st.container():
         st.subheader('Estudios')
 
@@ -154,7 +203,7 @@ with tabs1:
             - Desarrollo del ojo crítico y detección rápida de tendencias.
             """)
 ####################################################################################
-
+if extras:
     st.markdown('---')
     st.subheader('Formación adicional')
 
