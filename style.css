@@ -1,37 +1,45 @@
 #root > div:nth-child(1) > div.withScreencast > div > div {
-    background-color: #F6EFDF;   
+    background-color: #F4FAFF;   
 }
 
 #tabs-1-tab-0 {
-    color: #626C66;
-    background-color: #C7B8EA;
+    color: #DEE7E7;
+    background-color: #B7ADCF;
     text-align: center;
     font-size: 1.2em;
     padding: 2%;
 }
 #tabs-1-tab-1 {
-    color: #626C66;
-    background-color: #C7B8EA;
+    color: #DEE7E7;
+    background-color: #B7ADCF;
     text-align: center;
     font-size: 1.1em;
     padding: 2%;
 }
 #root > div:nth-child(1) > div.withScreencast > div > div > div > section > div > div:nth-child(1) > div > div.stTabs.css-0.exp6ofz0 > div > div.st-cv.st-bb.st-cs {
-    color: #626C66;
-
+    color: #DEE7E7;
 }
 .st-co {
-    background-color: #B8336A;
+    background-color: #F4FAFF;
 }
 h3 {
-    color: #B8336A;
+    color: #121717;
 }
 h1 {
-    color: #434A42;
+    color: #3C3E3E;
 }
 body{
-    color: #434A42;
+    color: #121717;
 }
 #root > div:nth-child(1) > div.withScreencast > div > div > header {
-    background-color: #C7B8EA;
+    background-color: #DEE7E7;
+}
+tab-highlight {
+    color: #B7ADCF;
+}
+.st-dp {
+    background-color: #F4FAFF;
+}
+.st-dl {
+    border-bottom-color: #121717;
 }
