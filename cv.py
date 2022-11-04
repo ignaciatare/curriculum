@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title='Ignacia Taré - CV', 
                 page_icon='👩🏼‍💻', 
                 layout="centered", 
-                initial_sidebar_state="auto", 
+                initial_sidebar_state="expanded", 
                 menu_items=None)
 
 #add_logo("teo.png")
@@ -20,7 +20,7 @@ with open('style.css') as f:
 
 st.sidebar.title('Currículum de auto-atención')
 st.sidebar.write('Puedes elegir los elementos que quieras ver, solo haz click')
-ver = st.sidebar.checkbox('Ver presentación')
+
 destrezas = st.sidebar.checkbox('Ver Destrezas Técnicas')
 librerias = st.sidebar.checkbox('Ver Librerías de Python')    
 profesional = st.sidebar.checkbox('Ver Experiencia profesional')
@@ -34,26 +34,28 @@ extras = st.sidebar.checkbox('Ver Estudios complementarios')
 
 tabs1, tabs2 = st.tabs(['Español', 'English'])
 
-if ver: 
-    with tabs1:
-        col01, col02, col03 = st.columns([1,8,1], gap='medium')
-        with col02:
-            st.title('👩🏼‍💻 Ignacia Taré Albornoz')
-            st.subheader('Presentación')
-        col1, col2 = st.columns([1,1], gap='small') 
-        with col1:   
-            st.image('yo.jpg', use_column_width='auto')
-            st.caption('Uno de mis lugares favoritos para trabajar.\n Foto por Rodrigo Salinas.')
-        with col2:    
-            st.write("""
-                Hola, mi nombre es Ignacia y soy una científica de datos con especial preocupación en las comunicaciones, y un gusto innato por hacer visualizaciones de información.
-                Vivo entre Llay-Llay y Santiago 🇨🇱.\n 
-                Me interesa lo que los datos tienen para comunicar y los entendimientos que podemos sacar de estos.
-                Trabajé trece años en periodismo y hace cinco pasé de escribir noticias a escribir código. Mi principal y favortito lenguaje es **Python**, pero también me manejo muy bien en **HTML + CSS**, en **SQL**, y con **JavaScript**. 
-                En mi corta carrera en programación he enfrentado complicado código escrito por otros; así como también disfruto escribir programas desde cero. 
-            """)
 
-            st.markdown('---') 
+with tabs1:
+    col01, col02, col03 = st.columns([1,8,1], gap='medium')
+    with col02:
+        st.title('👩🏼‍💻 Ignacia Taré Albornoz')
+        st.subheader('Presentación')
+    col1, col2 = st.columns([1,1], gap='small') 
+    with col1:   
+        st.image('yo.jpg', use_column_width='auto')
+        st.caption('''Uno de mis lugares favoritos para trabajar.\n 
+                    Foto por Rodrigo Salinas.''')
+    with col2:    
+        st.write("""
+            Hola, mi nombre es Ignacia y soy una científica de datos con especial preocupación en las comunicaciones, y un gusto innato por hacer visualizaciones de información.
+            Vivo entre Llay-Llay y Santiago 🇨🇱.\n 
+            Me interesa lo que los datos tienen para comunicar y los entendimientos que podemos sacar de estos.
+            Trabajé trece años en periodismo y hace cinco pasé de escribir noticias a escribir código. Mi principal y favortito lenguaje es **Python**, pero también me manejo muy bien en **HTML + CSS**, en **SQL**, y con **JavaScript**. 
+            En mi corta carrera en programación he enfrentado complicado código escrito por otros; así como también disfruto escribir programas desde cero. \n 
+            Si quieres ver mi currículum, en el sidebar puedes seleccionar las áreas que desees que se muestren. 
+        """)
+
+st.markdown('---') 
 
 
         # mention(
@@ -143,9 +145,9 @@ if profesional:
             with col2:
                 st.markdown("""
                     - En conjunto con el Ministerio de la Ciencia, Tecnología, Conocimiento e Innovación.
-                    - A cargo del repositorio Covid-19, publicado a diario en GitHub.
-                    - Creación de programas para automatizaciones en el repositorio.
-                    - Uso de Python para programas, manejo avanzado de GIT y GitHub.
+                    - A cargo del repositorio Covid-19, publicado a diario en GitHub
+                    - Creación de programas para automatizaciones en el repositorio
+                    - Uso de Python para programas, manejo avanzado de GIT y GitHub
                 """)
 
         st.markdown('---')
@@ -228,10 +230,10 @@ if extras:
             st.markdown("""
                     Previo a mi giro hacia la programación, trabajé trece años como periodista en medios de prensa (LUN y MEGA, entre otros). Ahí, con intensos deadlines, aprendí a trabajar sola y en equipo de manera asertiva, equilibrando agilidad y atención al detalle.
                     """)
-
+            st.markdown('---')
 ####################################################################################
 
-st.markdown('---')
+
 
 
 
