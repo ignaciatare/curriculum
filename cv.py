@@ -64,7 +64,7 @@ with tabs1:
             Me interesa lo que los datos tienen para comunicar y los entendimientos que podemos sacar de estos.
             Trabajé trece años en periodismo y hace cuatro pasé de escribir noticias a escribir código. Mi principal y favortito lenguaje es **Python**, pero también me manejo muy bien en **HTML + CSS**, en **SQL**, y con **JavaScript**. 
             En mi corta carrera en programación he enfrentado complicado código escrito por otros; así como también disfruto escribir programas desde cero. \n 
-            En mis tiempos libres me gusta aprender y absorber referencias de la cultura pop para luego divagarlas en mi podcast. \n
+            En mis tiempos libres me gusta aprender y absorber referencias de la cultura pop para luego divagarlas en mi podcast llamado [Maula.](https://maula.libsyn.com/) \n
             Si quieres ver mi currículum, en el sidebar puedes seleccionar las áreas que desees que se muestren. 
             """)
 
