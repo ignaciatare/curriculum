@@ -242,8 +242,8 @@ if previa:
 
 
 
-st.markdown('---')
-st.caption('Esta página fue hecha con un 94% de Python y un 6% de CSS')
+  st.markdown('---')
+  st.caption('Esta página fue hecha con un 94% de Python y un 6% de CSS')
 
 
 
@@ -257,7 +257,7 @@ with tabs2:
         col01, col02, col03 = st.columns([1,8,1], gap='medium')
         with col02:
             st.title('👩🏼‍💻 Ignacia Taré Albornoz')
-            st.subheader('Presentación')
+            st.subheader('Presentation')
         col1, col2 = st.columns([1,1], gap='small') 
         with col1:   
             st.image('yo.jpg', use_column_width='auto')
@@ -442,7 +442,8 @@ if previous:
                     """)
             st.markdown('---')
 ####################################################################################
-
+  st.markdown('---')
+  st.caption('This page was made with 94% Python and 6% CSS.')
 
 
 
