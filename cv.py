@@ -237,13 +237,14 @@ if previa:
                     Previo a mi giro hacia la programación, trabajé trece años como periodista en medios de prensa (LUN y MEGA, entre otros).  Escribí desde noticias hasta diálogos para teleseries.. Ahí, con intensos deadlines, aprendí a trabajar sola y en equipo de manera asertiva, equilibrando agilidad y atención al detalle.
                     """)
             st.markdown('---')
+    st.markdown('---')
+    st.caption('Esta página fue hecha con un 94% de Python y un 6% de CSS')
 ####################################################################################
 
 
 
 
-st.markdown('---')
-st.caption('Esta página fue hecha con un 94% de Python y un 6% de CSS')
+
 
 
 
@@ -441,9 +442,11 @@ if previous:
             Before turning to programming and data science, I worked for thirteen years as a journalist in the media (LUN and MEGA, among others).  I wrote everything from news to dialogues for TV series. There, with intense deadlines, I learned to work alone and in a team in an assertive way, balancing agility and attention to detail.
                     """)
             st.markdown('---')
-####################################################################################
-st.markdown('---')
-st.caption('This page was made with 94% Python and 6% CSS.')
+    st.markdown('---')
+    st.caption('This page was made with 94% Python and 6% CSS.')
+            
+            ####################################################################################
+
 
 
 
