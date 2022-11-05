@@ -60,13 +60,13 @@ with tabs1:
     with col2:    
         st.write("""
             Hola, mi nombre es Ignacia y soy una científica de datos con especial preocupación en las comunicaciones, y un gusto innato por hacer visualizaciones de información.
-            Vivo entre Llay-Llay y Santiago 🇨🇱.\n 
+            Vivo entre Llay-Llay y Santiago 🇨🇱. \n 
             Me interesa lo que los datos tienen para comunicar y los entendimientos que podemos sacar de estos.
             Trabajé trece años en periodismo y hace cuatro pasé de escribir noticias a escribir código. Mi principal y favortito lenguaje es **Python**, pero también me manejo muy bien en **HTML + CSS**, en **SQL**, y con **JavaScript**. 
             En mi corta carrera en programación he enfrentado complicado código escrito por otros; así como también disfruto escribir programas desde cero. \n 
-            \n En mis tiempos libres me gusta aprender y absorber referencias de la cultura pop para luego divagarlas en mi podcast. \n
+            En mis tiempos libres me gusta aprender y absorber referencias de la cultura pop para luego divagarlas en mi podcast. \n
             Si quieres ver mi currículum, en el sidebar puedes seleccionar las áreas que desees que se muestren. 
-        """)
+            """)
 
     st.markdown('---') 
 
