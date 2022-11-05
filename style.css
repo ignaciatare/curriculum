@@ -34,12 +34,16 @@ body{
 #root > div:nth-child(1) > div.withScreencast > div > div > header {
     background-color: #DEE7E7;
 }
-tab-highlight {
-    color: #B7ADCF;
+tab-highlight, #tabs-bui3-tab-0, #tabs-bui3-tab-1  {
+    background-color: #B7ADCF;
+    color:#3C3E3E;
 }
 .st-dp {
     background-color: #F4FAFF;
 }
 .st-dl {
     border-bottom-color: #121717;
+}
+p {
+    color:#121717;
 }
