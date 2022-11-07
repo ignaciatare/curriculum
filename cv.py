@@ -255,7 +255,7 @@ with tabs2:
     col01, col02, col03 = st.columns([1,8,1], gap='medium')
     with col02:
         st.title('👩🏼‍💻 Ignacia Taré Albornoz')
-        st.subheader('Presentación')
+        st.subheader('Presentation')
     col1, col2 = st.columns([1,1], gap='small') 
     with col1:   
         st.image('yo.jpg', use_column_width='auto')
