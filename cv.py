@@ -60,13 +60,12 @@ with tabs1:
     with col2:    
         st.write("""
             Hola, mi nombre es Ignacia y soy una científica de datos con especial preocupación en las comunicaciones, y un gusto innato por hacer visualizaciones de información.
-            Vivo entre Llay-Llay y Santiago 🇨🇱. \n 
+            Vivo entre Llay-Llay y Santiago 🇨🇱.\n 
             Me interesa lo que los datos tienen para comunicar y los entendimientos que podemos sacar de estos.
             Trabajé trece años en periodismo y hace cuatro pasé de escribir noticias a escribir código. Mi principal y favortito lenguaje es **Python**, pero también me manejo muy bien en **HTML + CSS**, en **SQL**, y con **JavaScript**. 
             En mi corta carrera en programación he enfrentado complicado código escrito por otros; así como también disfruto escribir programas desde cero. \n 
-            En mis tiempos libres me gusta aprender y absorber referencias de la cultura pop para luego divagarlas en mi podcast llamado [Maula.](https://maula.libsyn.com/) \n
             Si quieres ver mi currículum, en el sidebar puedes seleccionar las áreas que desees que se muestren. 
-            """)
+        """)
 
     st.markdown('---') 
 
@@ -238,14 +237,13 @@ if previa:
                     Previo a mi giro hacia la programación, trabajé trece años como periodista en medios de prensa (LUN y MEGA, entre otros).  Escribí desde noticias hasta diálogos para teleseries.. Ahí, con intensos deadlines, aprendí a trabajar sola y en equipo de manera asertiva, equilibrando agilidad y atención al detalle.
                     """)
             st.markdown('---')
-    st.markdown('---')
-    st.caption('Esta página fue hecha con un 94% de Python y un 6% de CSS')
 ####################################################################################
 
 
 
 
-
+st.markdown('---')
+st.caption('Esta página fue hecha con un 94% de Python y un 6% de CSS.')
 
 
 
@@ -254,34 +252,34 @@ if previa:
 ####################################################################################
 
 with tabs2:
-   col01, col02, col03 = st.columns([1,8,1], gap='medium')
-        with col02:
-            st.title('👩🏼‍💻 Ignacia Taré Albornoz')
-            st.subheader('Presentation')
-        col1, col2 = st.columns([1,1], gap='small') 
-        with col1:   
-            st.image('yo.jpg', use_column_width='auto')
-            st.caption('''This is my mother's backyard, a place where I love to work .
-                        Portrait by Rodrigo Salinas.''')
-        with col2:    
-            st.write("""
-                Hello, my name is Ignacia and I am a data scientist with a special concern in communications, and an innate taste for making information visualizations. I live between Llay-Llay and Santiago 🇨🇱. \n
-                I am interested in what data has to communicate and the insights we can draw from it.
-                I worked thirteen years in journalism and four years ago I went from writing news to writing code. My main and favorite language is Python, but I'm also very good with HTML + CSS, SQL, and JavaScript. 
-                In my short programming career I've faced complicated code written by others; I also enjoy writing programs from scratch. \n
-                If you want to see my resume, in the sidebar you can select the areas you want to be shown. 
-            """)
+    col01, col02, col03 = st.columns([1,8,1], gap='medium')
+    with col02:
+        st.title('👩🏼‍💻 Ignacia Taré Albornoz')
+        st.subheader('Presentación')
+    col1, col2 = st.columns([1,1], gap='small') 
+    with col1:   
+        st.image('yo.jpg', use_column_width='auto')
+        st.caption('''This is my mother's backyard, a place where I love to work .
+                    Portrait by Rodrigo Salinas.''')
+    with col2:    
+        st.write("""
+            Hello, my name is Ignacia and I am a data scientist with a special concern in communications, and an innate taste for making information visualizations. I live between Llay-Llay and Santiago 🇨🇱. \n
+            I am interested in what data has to communicate and the insights we can draw from it.
+            I worked thirteen years in journalism and four years ago I went from writing news to writing code. My main and favorite language is Python, but I'm also very good with HTML + CSS, SQL, and JavaScript. 
+            In my short programming career I've faced complicated code written by others; I also enjoy writing programs from scratch. \n
+            If you want to see my resume, in the sidebar you can select the areas you want to be shown. 
+        """)
 
     st.markdown('---') 
 
 if contact:
-    st.subheader('Contacto:')
+    st.subheader('Contact me:')
     st.markdown('''
-        📱 +56 9 9586 5669 \n
-        💌 ignaciaescribe@gmail.com \n
-        🏡 Doctor Johow 250, Ñuñoa. \n
-        💻 https://www.linkedin.com/in/ignaciatare/ \n
-        🐱 https://github.com/ignaciatare/ \n
+        📱 +56 9 9586 5669
+        💌 ignaciaescribe@gmail.com
+        🏡 Doctor Johow 250, Ñuñoa.
+        💻 https://www.linkedin.com/in/ignaciatare/
+        🐱 https://github.com/ignaciatare/
         🎙 http://maula.libsyn.com
     ''')
 
@@ -441,10 +439,7 @@ if previous:
             Before turning to programming and data science, I worked for thirteen years as a journalist in the media (LUN and MEGA, among others).  I wrote everything from news to dialogues for TV series. There, with intense deadlines, I learned to work alone and in a team in an assertive way, balancing agility and attention to detail.
                     """)
             st.markdown('---')
-    st.markdown('---')
-    st.caption('This page was made with 94% Python and 6% CSS.')
-            
-            ####################################################################################
+####################################################################################
 
 
 
