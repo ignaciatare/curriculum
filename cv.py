@@ -132,9 +132,9 @@ if profesional:
 
         with col2:
             st.markdown("""
-            - Práctica profesional de 3 meses
-            - Uso de Python y SQL para diferentes propósitos
-            - Visualizaciones de data con Streamlit
+            - Práctica profesional de 3 meses.
+            - Uso de Python y SQL para diferentes propósitos.
+            - Visualizaciones de data con Streamlit.
             """)
 
 
@@ -152,9 +152,9 @@ if profesional:
             with col2:
                 st.markdown("""
                     - En conjunto con el Ministerio de la Ciencia, Tecnología, Conocimiento e Innovación.
-                    - A cargo del repositorio Covid-19, publicado a diario en GitHub
-                    - Creación de programas para automatizaciones en el repositorio
-                    - Uso de Python para programas, manejo avanzado de GIT y GitHub
+                    - A cargo del repositorio Covid-19, publicado a diario en GitHub.
+                    - Creación de programas para automatizaciones en el repositorio.
+                    - Uso de Python para programas, manejo avanzado de GIT y GitHub.
                 """)
 
         st.markdown('---')
@@ -254,9 +254,7 @@ if previa:
 ####################################################################################
 
 with tabs2:
-   
-    with tabs2:
-        col01, col02, col03 = st.columns([1,8,1], gap='medium')
+   col01, col02, col03 = st.columns([1,8,1], gap='medium')
         with col02:
             st.title('👩🏼‍💻 Ignacia Taré Albornoz')
             st.subheader('Presentation')
