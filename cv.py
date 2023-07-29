@@ -59,14 +59,15 @@ with tabs1:
                     Foto por Rodrigo Salinas.''')
     with col2:    
         st.write("""
-            Hola, mi nombre es Ignacia y soy una científica de datos con especial preocupación en las comunicaciones, y un gusto innato por hacer visualizaciones de información. Me gusta también el desarrollo en Django.
-            Vivo entre Llay-Llay y Santiago 🇨🇱.\n 
-            Me interesa lo que los datos tienen para comunicar y los entendimientos que podemos sacar de estos.
-            Trabajé trece años en periodismo y hace cuatro pasé de escribir noticias a escribir código. Mi principal y favorito lenguaje es **Python**, pero también me manejo muy bien en **HTML + CSS**, en **SQL**, y con **JavaScript**. 
-            En mi corta carrera en programación he enfrentado complicado código escrito por otros; así como también disfruto escribir programas desde cero. \n 
-            Actualmente estoy en mi último semestre de la carrera de Analista programador en INACAP. \n \n
-            Si quieres ver mi currículum, en el sidebar puedes seleccionar las áreas que desees que se muestren.
-
+            Hola, mi nombre es Ignacia y soy una científica de datos con especial preocupación en las comunicaciones, y un gusto innato por hacer visualizaciones de información. 
+            \n
+            Vivo entre Llay-Llay y Santiago 🇨🇱.
+            \n
+            Me interesa lo que los datos tienen para comunicar y los entendimientos que podemos sacar de estos. Trabajé trece años en periodismo y hace cuatro pasé de escribir noticias a escribir código. Mi principal y favorito lenguaje es Python, pero también me manejo muy bien en HTML + CSS, en SQL, y con JavaScript. Me gusta también el desarrollo en Django. 
+            \n
+            En mi corta carrera en programación he enfrentado complicado código escrito por otros; así como también disfruto escribir programas desde cero.
+            \n
+            Actualmente estoy en mi último semestre de la carrera de Analista programador en INACAP.
            
         """)
 
