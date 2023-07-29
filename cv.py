@@ -119,6 +119,23 @@ with tabs1:
     if profesional:
         with st.container():
             st.subheader('Experiencia Profesional')
+            with st.container():
+                col1, col2 = st.columns([1,2], gap='medium')
+                with col1:
+                        st.markdown("""
+                        **Adah Fintech**
+                        Nov 2022 - Jun 2023
+                        Operaciones 
+                    """)
+
+                with col2:
+                    st.markdown("""
+                        - Encargada de operaciones en el departamento de Producto.
+                        - A cargo de la plataforma de e-learning.
+                        - Uso de Figma, Thinkific, Typeform.
+                        - Metodologías ágiles.
+                    """)
+          
             col1, col2 = st.columns([1,2], gap='medium')
             with col1:
                 st.markdown("""
