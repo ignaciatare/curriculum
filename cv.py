@@ -64,7 +64,7 @@ with tabs1:
             Me interesa lo que los datos tienen para comunicar y los entendimientos que podemos sacar de estos.
             Trabajé trece años en periodismo y hace cuatro pasé de escribir noticias a escribir código. Mi principal y favorito lenguaje es **Python**, pero también me manejo muy bien en **HTML + CSS**, en **SQL**, y con **JavaScript**. 
             En mi corta carrera en programación he enfrentado complicado código escrito por otros; así como también disfruto escribir programas desde cero. \n 
-            Actualmente estoy en mi último semestre de la carrera de Analista programador en INACAP.
+            Actualmente estoy en mi último semestre de la carrera de Analista programador en INACAP. \n \n
             Si quieres ver mi currículum, en el sidebar puedes seleccionar las áreas que desees que se muestren.
 
            
