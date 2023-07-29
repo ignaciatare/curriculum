@@ -59,7 +59,7 @@ with tabs1:
                     Foto por Rodrigo Salinas.''')
     with col2:    
         st.write("""
-            Hola, mi nombre es Ignacia y soy una científica de datos con especial preocupación en las comunicaciones, y un gusto innato por hacer visualizaciones de información.
+            Hola, mi nombre es Ignacia y soy una científica de datos con especial preocupación en las comunicaciones, y un gusto innato por hacer visualizaciones de información. Me gusta también el desarrollo en Django.
             Vivo entre Llay-Llay y Santiago 🇨🇱.\n 
             Me interesa lo que los datos tienen para comunicar y los entendimientos que podemos sacar de estos.
             Trabajé trece años en periodismo y hace cuatro pasé de escribir noticias a escribir código. Mi principal y favorito lenguaje es **Python**, pero también me manejo muy bien en **HTML + CSS**, en **SQL**, y con **JavaScript**. 
@@ -88,7 +88,8 @@ with tabs1:
         with col2:
             st.markdown("""
             ### Destrezas técnicas
-            - Python 
+            - Python
+            - Django
             - SQL 
             - HTML + CSS  
             - JavaScript 
